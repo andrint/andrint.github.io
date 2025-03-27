@@ -52,7 +52,20 @@ Threshold: 0.88 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.10
 </details>
 
 ## Plotting ROC curve and FNR and FPR
+I plotted the error rate, false positive rate (FPR), and false negative rate (FNR) against the threshold:
 
+![](/images/ErrorRate_vs_threshold.png "Error rate vs threshold")
+![](/images/FNR_FPR.png "fast.ai's logo")
+<details>
+<summary>🧠 What is False Negative Rate (FNR)?</summary>
+The False Negative Rate is the proportion of actual positives that were incorrectly predicted as negatives. It helps measure how many real matches the system misses.
+</details>
+<details>
+<summary>🧠 What is False Positive Rate (FPR)?</summary>
+The False Positive Rate is the proportion of actual negatives that were incorrectly predicted as negatives. 
+</details>
+
+From this, I found that while the error rate looks low at higher thresholds, the FNR increases to 100%, which means all true matches are missed.
 
 ## Basic formatting
 
