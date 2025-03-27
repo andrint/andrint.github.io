@@ -1,4 +1,4 @@
-# Fingerprint Recognition & Threshold Evaluation
+# Fingerprint Recognition and Threshold Evaluation
 
 This week I explored fingerprint recognition using classical image processing techniques combined with template matching.
 I created a full system for:
@@ -50,6 +50,7 @@ The False Positive Rate is the proportion of actual negatives that were incorrec
 </details>
 
 From this, I found that while the error rate looks low at higher thresholds, the FNR increases to 100%, which means all true matches are missed.
+    
     💡**Lesson learned** Accuracy is not enough — you must inspect FPR/FNR trade-offs.
 
 ## Observations 
