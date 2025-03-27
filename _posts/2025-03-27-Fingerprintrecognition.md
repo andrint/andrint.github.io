@@ -17,6 +17,7 @@ I created a full system for:
 
 ## Threshold tuning and error rates
 I evaluated system performance by comparing several fingerprints and manually labeling which were matches. Using a loop over multiple thresholds (from 0.62 to 0.88), I collected statistics:
+
 | Threshold | FNR   | TP | FP | FN | TN | Error Rate |
 |-----------|-------|----|----|----|----|-------------|
 | 0.62      | 0.00  | 7  | 56 | 0  | 4  | 0.836       |
