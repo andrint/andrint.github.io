@@ -15,15 +15,24 @@ I created a full system for:
 1. TOC
 {:toc}
 
-## Basic setup
+## Threshold tuning 
 
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-filename.md`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `filename` is whatever file name you choose, to remind yourself what this post is about. `.md` is the file extension for markdown files.
-
-The first line of the file should start with a single hash character, then a space, then your title. This is how you create a "*level 1 heading*" in markdown. Then you can create level 2, 3, etc headings as you wish but repeating the hash character, such as you see in the line `## File names` above.
+<details> <summary>Click to expand raw threshold statistics</summary>
+Threshold: 0.62 | FNR: 0.00 | TP: 7 | FP: 56 | FN: 0 | TN: 4 | Error Rate: 0.836
+Threshold: 0.64 | FNR: 0.00 | TP: 7 | FP: 51 | FN: 0 | TN: 9 | Error Rate: 0.761
+Threshold: 0.66 | FNR: 0.14 | TP: 6 | FP: 45 | FN: 1 | TN: 15 | Error Rate: 0.687
+Threshold: 0.68 | FNR: 0.29 | TP: 5 | FP: 40 | FN: 2 | TN: 20 | Error Rate: 0.627
+Threshold: 0.70 | FNR: 0.29 | TP: 5 | FP: 28 | FN: 2 | TN: 32 | Error Rate: 0.448
+Threshold: 0.72 | FNR: 0.57 | TP: 3 | FP: 17 | FN: 4 | TN: 43 | Error Rate: 0.313
+Threshold: 0.74 | FNR: 0.57 | TP: 3 | FP: 5  | FN: 4 | TN: 55 | Error Rate: 0.134
+Threshold: 0.76 | FNR: 0.57 | TP: 3 | FP: 0  | FN: 4 | TN: 60 | Error Rate: 0.060
+Threshold: 0.78 | FNR: 0.71 | TP: 2 | FP: 0  | FN: 5 | TN: 60 | Error Rate: 0.075
+Threshold: 0.80 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
+Threshold: 0.82 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
+Threshold: 0.84 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
+Threshold: 0.86 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
+Threshold: 0.88 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
+</details>
 
 ## Basic formatting
 
