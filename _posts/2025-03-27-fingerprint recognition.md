@@ -34,22 +34,6 @@ I evaluated system performance by comparing several fingerprints and manually la
 | 0.86      | 1.00  | 0  | 0  | 7  | 60 | 0.104       |
 | 0.88      | 1.00  | 0  | 0  | 7  | 60 | 0.104       |
 
-<details> <summary>Click to expand raw threshold statistics</summary>
-Threshold: 0.62 | FNR: 0.00 | TP: 7 | FP: 56 | FN: 0 | TN: 4 | Error Rate: 0.836
-Threshold: 0.64 | FNR: 0.00 | TP: 7 | FP: 51 | FN: 0 | TN: 9 | Error Rate: 0.761
-Threshold: 0.66 | FNR: 0.14 | TP: 6 | FP: 45 | FN: 1 | TN: 15 | Error Rate: 0.687
-Threshold: 0.68 | FNR: 0.29 | TP: 5 | FP: 40 | FN: 2 | TN: 20 | Error Rate: 0.627
-Threshold: 0.70 | FNR: 0.29 | TP: 5 | FP: 28 | FN: 2 | TN: 32 | Error Rate: 0.448
-Threshold: 0.72 | FNR: 0.57 | TP: 3 | FP: 17 | FN: 4 | TN: 43 | Error Rate: 0.313
-Threshold: 0.74 | FNR: 0.57 | TP: 3 | FP: 5  | FN: 4 | TN: 55 | Error Rate: 0.134
-Threshold: 0.76 | FNR: 0.57 | TP: 3 | FP: 0  | FN: 4 | TN: 60 | Error Rate: 0.060
-Threshold: 0.78 | FNR: 0.71 | TP: 2 | FP: 0  | FN: 5 | TN: 60 | Error Rate: 0.075
-Threshold: 0.80 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
-Threshold: 0.82 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
-Threshold: 0.84 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
-Threshold: 0.86 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
-Threshold: 0.88 | FNR: 1.00 | TP: 0 | FP: 0  | FN: 7 | TN: 60 | Error Rate: 0.104
-</details>
 
 ## Plotting ROC curve and FNR and FPR
 I plotted the error rate, false positive rate (FPR), and false negative rate (FNR) against the threshold:
@@ -66,7 +50,7 @@ The False Positive Rate is the proportion of actual negatives that were incorrec
 </details>
 
 From this, I found that while the error rate looks low at higher thresholds, the FNR increases to 100%, which means all true matches are missed.
-
+    💡**Lesson learned** Accuracy is not enough — you must inspect FPR/FNR trade-offs.
 ## Basic formatting
 
 You can use *italics*, **bold**, `code font text`, and create [links](https://www.markdownguide.org/cheat-sheet/). Here's a footnote [^1]. Here's a horizontal rule:
