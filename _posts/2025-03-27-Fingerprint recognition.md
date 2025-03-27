@@ -50,8 +50,7 @@ The False Positive Rate is the proportion of actual negatives that were incorrec
 </details>
 
 From this, I found that while the error rate looks low at higher thresholds, the FNR increases to 100%, which means all true matches are missed.
-    
-    💡**Lesson learned** Accuracy is not enough — you must inspect FPR/FNR trade-offs.
+>💡**Lesson learned** Accuracy is not enough — you must inspect FPR/FNR trade-offs.
 
 ## Observations 
 - Performance varied depending on the fingerprint being tested.
