@@ -58,23 +58,7 @@ From this, I found that while the error rate looks low at higher thresholds, the
 - At thresholds ~0.70–0.76, I observed a balanced compromise between FPR and FNR.
 
 - With just 80 samples, tuning is limited — more data would improve robustness.
-## Basic formatting
 
-You can use *italics*, **bold**, `code font text`, and create [links](https://www.markdownguide.org/cheat-sheet/). Here's a footnote [^1]. Here's a horizontal rule:
-
----
-
-## Lists
-
-Here's a list:
-
-- item 1
-- item 2
-
-And a numbered list:
-
-1. item 1
-1. item 2
 
 ## Boxes and stuff
 
@@ -103,8 +87,6 @@ Python code and output:
 # Prints '2'
 print(1+1)
 ```
-
-    2
 
 ## Tables
 
