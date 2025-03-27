@@ -1,6 +1,16 @@
-# This is the title
+# Fingerprint Recognition & Threshold Evaluation
 
-Here's the table of contents:
+This week I explored fingerprint recognition using classical image processing techniques combined with template matching.
+I created a full system for:
+
+- Registering fingerprints via a GUI
+
+- Extracting minutiae and local descriptors
+
+- Comparing fingerprints against a gallery of enrolled samples
+
+- Evaluating performance with metrics like FPR, FNR, and error rate
+
 
 1. TOC
 {:toc}
