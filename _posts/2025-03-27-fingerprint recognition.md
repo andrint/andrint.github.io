@@ -11,7 +11,7 @@ I created a full system for:
 
 - Evaluating performance with metrics like FPR, FNR, and error rate
 
-
+- Fingerprint data was collected [here](http://bias.csr.unibo.it/fvc2000/download.asp)
 1. TOC
 {:toc}
 
@@ -51,6 +51,13 @@ The False Positive Rate is the proportion of actual negatives that were incorrec
 
 From this, I found that while the error rate looks low at higher thresholds, the FNR increases to 100%, which means all true matches are missed.
     💡**Lesson learned** Accuracy is not enough — you must inspect FPR/FNR trade-offs.
+
+## Observations 
+- Performance varied depending on the fingerprint being tested.
+
+- At thresholds ~0.70–0.76, I observed a balanced compromise between FPR and FNR.
+
+- With just 80 samples, tuning is limited — more data would improve robustness.
 ## Basic formatting
 
 You can use *italics*, **bold**, `code font text`, and create [links](https://www.markdownguide.org/cheat-sheet/). Here's a footnote [^1]. Here's a horizontal rule:
